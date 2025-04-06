@@ -50,6 +50,7 @@ h1{
     content: "▼";
     position: absolute;
     right: 20px;
+    color: white;
 }
 
 .faq-answer{
@@ -57,7 +58,11 @@ h1{
     display: none;
 }
 
-.answers{
+.answers .faq-answer{
     display: block;
+}
+
+.answers .btn::after{
+    content: "▲";
 }
 
